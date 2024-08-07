@@ -196,6 +196,8 @@ section h2 span {
 .technologies-section .tab-section .nav-tabs {
   border-bottom: 0;
   gap: 32px;
+  border-right: 2px solid #3A4253;
+  padding-right: 4rem;
 }
 .technologies-section .tab-section .nav-tabs .nav-link {
   padding: 0;
@@ -229,7 +231,7 @@ section h2 span {
   text-align: center;
   justify-content: space-between;
   padding: 0.5rem;
-  max-width: 12rem;
+  width: 11rem;
   background-color: #f8f9fa;
   border-radius: 4px;
   transition: transform 0.3s ease;

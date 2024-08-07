@@ -202,6 +202,8 @@ section{
         .nav-tabs{
             border-bottom: 0;
             gap: 32px;
+            border-right: 2px solid $secondary-color;
+            padding-right: 4rem;
             .nav-link{
                 padding: 0;
                 border: none;
@@ -236,7 +238,7 @@ section{
                 text-align: center;
                 justify-content: space-between;
                 padding: 0.5rem;
-                max-width: 12rem;
+                width: 11rem;
                 background-color: #f8f9fa;
                 border-radius: 4px;
                 transition: transform 0.3s ease;

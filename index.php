@@ -18,8 +18,10 @@
     </section>
     <section class="trusted-by padding-lg-tb">
         <div class="container text-center">
+            <div class="section-title mx-auto">
             <h2>Trusted By <span>Industry Leaders</span></h2>
             <p class="padding-md-tb">Discover the Depth of Our Expertise Through Collaborations with Leading Industry Pioneers. Explore Our Established Partnerships and Successful Ventures, Shaping the Future of Fintech Together.</p>
+            </div>
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-2 col-6">
                     <img src="images/altel.png" alt="Altel" class="img-fluid mb-4">
@@ -57,7 +59,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <img src="images/locations.jpg" alt="Map" class="img-fluid">
+                    <img src="images/location.gif" alt="Map" class="img-fluid">
                 </div>
                 <div class="col-md-6">
                     <div class="content">
@@ -102,8 +104,10 @@
     </section>
     <section class="technologies-section text-center padding-lg-tb bg-light">
         <div class="container">
-            <h2>What <span>We Use</span></h2>
-            <p class="padding-md-tb">At Vanilla Tech, we harness a robust array of cutting-edge technologies to power our innovative Fintech solutions. Our carefully curated tech stacks form the backbone of our efficient and reliable offerings</p>
+            <div class="section-title mx-auto">
+                <h2>What <span>We Use</span></h2>
+                <p class="padding-md-tb">At Vanilla Tech, we harness a robust array of cutting-edge technologies to power our innovative Fintech solutions. Our carefully curated tech stacks form the backbone of our efficient and reliable offerings</p>
+            </div>
             <div class="tab-section d-flex justify-content-between padding-md-t">
                 <ul class="nav nav-tabs d-flex flex-column" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
@@ -119,7 +123,7 @@
                         <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">04 Mobile Apps</button>
                     </li>
                 </ul>
-                <div class="horizontal-line"></div>
+                <!-- <div class="horizontal-line"></div> -->
                 <div class="tab-content d-flex align-items-center" id="myTabContent">
                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                         <!-- <div class="d-flex flex-wrap gap-4">
@@ -262,8 +266,10 @@
     </section>
     <section class="life-section padding-lg-tb">
         <div class="container">
-            <h2 class="text-center">Life at <span>Vanilla Tech</span></h2>
-            <p class="padding-md-tb text-center">Our Workspace Events Showcase the Heartbeat of Vanilla Tech's Dynamic Work Culture. Join Us in Celebrating Collaboration, Innovation, and Community!</p>
+            <div class="section-title mx-auto">
+                <h2 class="text-center">Life at <span>Vanilla Tech</span></h2>
+                <p class="padding-md-tb text-center">Our Workspace Events Showcase the Heartbeat of Vanilla Tech's Dynamic Work Culture. Join Us in Celebrating Collaboration, Innovation, and Community!</p>
+            </div>
             <div class="life-content">
                 <div class="row">
                     <div class="col-md-4">
