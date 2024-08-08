@@ -129,6 +129,9 @@ section{
     h2{
         font-family: "Archivo Black", sans-serif;
         font-size: 48px;
+        @media(max-width: 757px){
+            font-size: 1.5rem;
+        }
         span{
             color: $primary-color !important;
         }
@@ -160,6 +163,9 @@ section{
         font-size: 4rem;
         font-family: "Archivo Black", sans-serif;
         font-weight: 400;
+        @media(max-width: 757px){
+            font-size: 2rem;
+        }
         span {
             color: $primary-color;
         }
@@ -185,12 +191,18 @@ section{
     .blockquote{
         img{
             margin-left: -28px;
+            @media(max-width: 757px){
+                display: none;
+            }
         }
     }
 }
 .technologies-section{
     .tab-section{
         gap: 4rem;
+        @media(max-width:991px){
+            flex-direction: column;
+        }
         .technologies-content{
             .text-left{
                 text-align: left;
@@ -204,6 +216,18 @@ section{
             gap: 32px;
             border-right: 2px solid $secondary-color;
             padding-right: 4rem;
+            @media(max-width:991px){
+                flex-direction: row !important;
+                flex-wrap: nowrap;
+                border-right: 0;
+                overflow-x: scroll;
+                padding-right: 0;
+                scrollbar-width: none; 
+                -ms-overflow-style: none; 
+                &::-webkit-scrollbar {
+                    display: none;
+                }
+            }
             .nav-link{
                 padding: 0;
                 border: none;
@@ -214,23 +238,22 @@ section{
                 font-size: 24px;
                 white-space: nowrap;
                 color: $secondary-color;
+                @media(max-width:991px){
+                    border: 0;
+                }
                 &.active{
                     background-color: transparent;
                     border-color: $primary-color;
+                    @media(max-width:991px){
+                        border: 0;
+                        color: $primary-color;
+                    }
                 }
             }
         }
-        .horizontal-line{
-            &:before{
-                content: '';
-                border: 1px solid $secondary-color;
-                display: block;
-                height: 100%;
-            }
-        }
-        .dev-platforms-grid {
-            display: grid;
-            grid-template-columns: repeat(4,1fr);
+        .dev-platforms-flex {
+            display: flex;
+            flex-wrap: wrap;
             gap: 2rem;   
             .dev-platform {
                 display: flex;

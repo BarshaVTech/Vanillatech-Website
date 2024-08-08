@@ -10,7 +10,7 @@
                         <a href="#" class="btn btn-tertiary">Our Services →</a>
                     </div>
                 </div>
-                <div class="offset-1 col-md-5">
+                <div class=" col-sm-6 offset-md-1 col-md-5">
                     <img src="images/team.jpg" alt="Team at Work" class="img-fluid rounded skewed-image">
                 </div>
             </div>
@@ -79,7 +79,7 @@
     <section class="testimonial padding-lg-tb">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-8">
+                <div class="col-md-8 order-2 order-md-1">
                     <div class="testimonial-content">
                         <blockquote class="blockquote">
                             <img src="images/quote.svg" alt="">
@@ -96,7 +96,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center order-1 order-md-2">
                     <img src="images/ceo.jpg" alt="John Doe" class="img-fluid person-img">
                 </div>
             </div>
@@ -162,7 +162,7 @@
                         </div> -->
                         <div class="technologies-content">
                             <h4 class="text-left">Frontend</h4>
-                            <div class="dev-platforms-grid">
+                            <div class="dev-platforms-flex">
                                 <div class="dev-platform">
                                     <img src="images/react.svg" alt="React" class="img-fluid">
                                     <p>React</p>
@@ -183,7 +183,7 @@
                         </div>
                         <div class="technologies-content padding-md-t">
                             <h4 class="text-left">Backend</h4>
-                            <div class="dev-platforms-grid">
+                            <div class="dev-platforms-flex">
                                 <div class="dev-platform">
                                     <img src="images/python.svg" alt="Python" class="img-fluid">
                                     <p>Python</p>
