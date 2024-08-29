@@ -2,16 +2,23 @@
     <section class="banner">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6">
+                <div class="banner-text col-lg-7 col-md-12  col-sm-12">
                     <h1>Transforming finance for <span>tomorrow's world</span></h1>
                     <p class="padding-md-tb">We are a leading global software solution provider primarily expertizing in the FINTECH sector enriching world-class brands with cutting-edge software leveraging imagination and driving innovation.</p>
                     <div class="banner-buttons d-flex">
                         <a href="#" class="btn btn-outline me-4">Join Us</a>
-                        <a href="#" class="btn btn-tertiary">Our Services →</a>
+                        <a href="#" class="btn btn-tertiary d-flex flex-row gap-2 align-items-center">Our Services                             
+                            <lord-icon
+                                src="https://cdn.lordicon.com/vduvxizq.json"
+                                trigger="loop"
+                                colors="primary:#00baa4"
+                                style="width:24px;height:24px"
+                                delay="2000">
+                            </lord-icon></a>
                     </div>
                 </div>
-                <div class=" col-sm-6 offset-md-1 col-md-5">
-                    <img src="images/team.jpg" alt="Team at Work" class="img-fluid rounded skewed-image">
+                <div class="banner-image col-lg-5 col-md-12  col-sm-12 ">
+                    <img src="images/team.jpg" alt="Team at Work" class="img-fluid rounded skewed-image w-100">
                 </div>
             </div>
         </div>
@@ -41,15 +48,14 @@
     <section class="software-development padding-lg-tb">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6">
-                    <img src="images/teams.jpg" alt="Team Photo" class="img-fluid rounded">
+                <div class="software-development-image col-lg-5 col-md-12 col-sm-12">
+                    <img src="images/teams.jpg" alt="Team Photo" class="img-fluid rounded w-100">
                 </div>
-                <div class="col-md-6">
+                <div class="software-development-text col-lg-7 col-md-12 col-sm-12">
                     <div class="content">
-                        <h5 class="text-primary padding-sm-b">Software Development</h5>
                         <h2>Fueling Growth Through <span>Innovative Solutions</span></h2>
                         <p class="padding-md-tb">Empower your business with tailored software solutions designed to meet your unique needs. Our expert team is committed to delivering cutting-edge, reliable, and scalable software that propels your organization forward.</p>
-                        <a href="#" class="btn btn-tertiary">View more →</a>
+                        <a href="#" class="btn btn-tertiary">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -58,19 +64,19 @@
     <section class="software-excellence padding-lg-tb">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6">
-                    <img src="images/location.gif" alt="Map" class="img-fluid">
-                </div>
-                <div class="col-md-6">
+                <div class="software-excellence-text col-lg-7 col-md-12 col-sm-12">
                     <div class="content">
                         <h2>Software Excellence Across <span>Borders</span></h2>
                         <p class="padding-md-tb">Embark on a journey through our global presence in Thailand, Malaysia, and Singapore. Experience how our software excellence transcends borders, reshaping digital landscapes and connecting aspirations with innovative solutions.</p>
                         <div class="locations d-flex gap-5">
-                            <div><img src="images/location-pin.svg" alt=""> Malaysia</div>
-                            <div><img src="images/location-pin.svg" alt=""> Thailand</div>
-                            <div><img src="images/location-pin.svg" alt=""> Singapore</div>
+                            <div class="location-text"><img src="images/location-pin.svg" alt=""> Malaysia</div>
+                            <div class="location-text"><img src="images/location-pin.svg" alt=""> Thailand</div>
+                            <div class="location-text"><img src="images/location-pin.svg" alt=""> Singapore</div>
                         </div>
                     </div>
+                </div>
+                <div class="software-excellence-image col-lg-5 col-md-12 col-sm-12">
+                    <img src="images/location.gif" alt="Map" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -79,7 +85,10 @@
     <section class="testimonial padding-lg-tb">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-8 order-2 order-md-1">
+            <div class="col-lg-3 col-md-12">
+                    <img src="images/ceo.jpg" alt="John Doe" class="img-fluid person-img">
+                </div>
+                <div class="col-lg-9 col-md-12">
                     <div class="testimonial-content">
                         <blockquote class="blockquote">
                             <img src="images/quote.svg" alt="">
@@ -96,19 +105,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 text-center order-1 order-md-2">
-                    <img src="images/ceo.jpg" alt="John Doe" class="img-fluid person-img">
-                </div>
             </div>
         </div>
     </section>
-    <section class="technologies-section text-center padding-lg-tb bg-light">
+    <section class="technologies-section text-center padding-lg-tb">
         <div class="container">
             <div class="section-title mx-auto">
                 <h2>What <span>We Use</span></h2>
                 <p class="padding-md-tb">At Vanilla Tech, we harness a robust array of cutting-edge technologies to power our innovative Fintech solutions. Our carefully curated tech stacks form the backbone of our efficient and reliable offerings</p>
             </div>
-            <div class="tab-section d-flex justify-content-between padding-md-t">
+            <div class="tab-section d-flex padding-md-t">
                 <ul class="nav nav-tabs d-flex flex-column" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">01 Web Platform</button>
@@ -124,8 +130,8 @@
                     </li>
                 </ul>
                 <!-- <div class="horizontal-line"></div> -->
-                <div class="tab-content d-flex align-items-center" id="myTabContent">
-                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="tab-content d-flex align-items-center w-100" id="myTabContent">
+                    <div class="tab-pane fade show active w-100" id="home" role="tabpanel" aria-labelledby="home-tab">
                         <!-- <div class="d-flex flex-wrap gap-4">
                             <div class="d-flex dev-platform">
                                 <img src="images/python.svg" alt="Python" class="img-fluid">
@@ -226,11 +232,12 @@
                 </div>
             </div>
             <div class="buttons mx-auto d-flex justify-content-center">
-                <a href="#" class="btn btn-tertiary">View more →</a>
+                <a href="#" class="btn btn-tertiary align-items-center">View More</a>
             </div>
         </div>
     </section>
-    <section class="insights padding-lg-tb bg-light">
+
+    <section class="insights padding-lg-tb">
         <div class="container">
             <div class="section-title">
                 <h2>Explore Our <span>Insights</span></h2>
@@ -240,14 +247,14 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="insights-box">
-                            <img src="images/insight1.jpg" alt="French Touch" class="img-fluid">
+                            <img src="images/insight1.jpg" alt="French Touch" class="img-fluid w-100">
                             <a href="#"><h5>French Touch</h5></a>
                             <p>Leveraging the unique French approach to technology and design.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="insights-box">
-                            <img src="images/insight2.jpg" alt="Innovative Solutions" class="img-fluid">
+                            <img src="images/insight2.jpg" alt="Innovative Solutions" class="img-fluid w-100">
                             <a href="#"><h5>Innovative Solutions</h5></a>
                             <p>Innovating for a better future with cutting-edge technology.</p>
                         </div>
@@ -255,7 +262,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="insights-box">
-                            <img src="images/insight3.jpg" alt="Global Outreach" class="img-fluid">
+                            <img src="images/insight3.jpg" alt="Global Outreach" class="img-fluid w-100">
                             <a href="#"><h5>Global Outreach</h5></a>
                             <p>Expanding our reach to provide solutions across the globe.</p>
                         </div>
@@ -264,6 +271,7 @@
             </div>
         </div>
     </section>
+
     <section class="life-section padding-lg-tb">
         <div class="container">
             <div class="section-title mx-auto">
@@ -271,7 +279,7 @@
                 <p class="padding-md-tb text-center">Our Workspace Events Showcase the Heartbeat of Vanilla Tech's Dynamic Work Culture. Join Us in Celebrating Collaboration, Innovation, and Community!</p>
             </div>
             <div class="life-content">
-                <div class="row">
+                <div class="row text-center">
                     <div class="col-md-4">
                         <img src="images/life1.jpg" alt="Team Building" class="img-fluid mb-3">
                     </div>
@@ -284,7 +292,7 @@
                 </div>
             </div>
             <div class="buttons">
-                <a href="#" class="btn btn-tertiary align-items-center mx-auto">View more →</a>
+                <a href="#" class="btn btn-tertiary align-items-center mx-auto">View More</a>
             </div>
         </div>
     </section>
