@@ -1,4 +1,5 @@
 <?php include('header.php'); ?>
+<main id="swup" class="transition-fade">
     <section class="project-page-banner">
         <div class="container">
             <div class="row align-items-center">
@@ -27,4 +28,5 @@
             </div>
         </div>
     </section>
+</main>
 <?php include('footer.php'); ?>

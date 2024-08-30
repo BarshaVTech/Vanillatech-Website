@@ -1,76 +1,68 @@
 <?php include('header.php'); ?>
+
+<main id="swup" class="transition-fade">
     <section class="inner-page-banner">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="banner-image col-lg-5 col-md-12  col-sm-12 ">
-                    <img src="images/team.jpg" alt="Team at Work" class="img-fluid rounded skewed-image w-100">
-                </div>
-                <div class="banner-text col-lg-7 col-md-12 col-sm-12">
-                    <h1>We Listen. We Empower Clients With <span>Digital Transformation</span></h1>
-                    <p class="padding-md-tb">We are an experienced and trusted software development company headquartered at Kuala Lumpur, Malaysia with a team of 100+ fervent and accomplished employees offering full service mobile and web development solutions to reputed brands and empowering them with digital transformation leveraging imagination and driving innovation.</p>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="banner-image col-lg-5 col-md-12  col-sm-12 ">
+                        <img src="images/team.jpg" alt="Team at Work" class="img-fluid rounded skewed-image w-100">
+                    </div>
+                    <div class="banner-text col-lg-7 col-md-12 col-sm-12">
+                        <h1>We Listen. We Empower Clients With <span>Digital Transformation</span></h1>
+                        <p class="padding-md-tb">We are an experienced and trusted software development company headquartered at Kuala Lumpur, Malaysia with a team of 100+ fervent and accomplished employees offering full service mobile and web development solutions to reputed brands and empowering them with digital transformation leveraging imagination and driving innovation.</p>
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
 
     <section class="values">
         <div class="container pt-5 pb-5" id="values-container">
             <div class="row align-items-center justify-content-center">
-                <div class="col-lg-5 col-md-12 col-sm-12">
+                <div class="values-heading col-lg-12 col-md-12 col-sm-12 text-center">
                     <h2>Our <span>Core Values</span></h2>
                     <p class="padding-md-tb">At Vanilla Tech, our foundation is built upon unwavering principles that guide our every action, decision, and innovation. These values encapsulate our commitment to excellence.</p>
                 </div>
-                <div class="col-lg-7 col-md-12 col-sm-12" id="values-list">
-                    <div class="row">
-                        <div class="col-lg-6 col-sm-12">
-                            <div class="row mb-5">
-                                <div class="col-lg-2 col-md-1">
-                                    <img src="./images/values/innovation.svg" alt="image" style="widht: 48px; height: 48px;">
-                                </div>
-                                <div class="col-lg-10 col-md-11">
-                                    <h3>Innovation</h3>
-                                    <p>Embrace a culture of continuous improvement, staying at the forefront of technological advancements to provide innovative solutions.</p>
-                                </div>
-                            </div>
+            <div class="values-list col-lg-12 col-md-12 col-sm-12">
+                <div class="list-1 d-flex gap-5">
+                    <div class="values-card d-flex gap-3">
+                        <div class="values-icon">
+                            <img src="./images/values/innovation.svg" alt="image" style="widht: 48px; height: 48px;">
                         </div>
-                        <div class="col-lg-6 col-sm-12">
-                            <div class="row mb-5">
-                                <div class="col-lg-2 col-md-1">
-                                    <img src="./images/values/collabration.svg" alt="image" style="widht: 48px; height: 48px;">
-                                </div>
-                                <div class="col-lg-10 col-md-11">
-                                    <h3>Collabration</h3>
-                                    <p>Foster a collaborative environment that encourages teamwork, diversity of thought, and shared success, both internally and with our clients.</p>
-                                </div>
-                            </div>
+                        <div class="values-text">
+                                <h3>Innovation</h3>
+                                <p>Embrace a culture of continuous improvement, staying at the forefront of technological advancements to provide innovative solutions.</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-6 col-sm-12">
-                            <div class="row mb-5">
-                                <div class="col-lg-2 col-md-1">
-                                    <img src="./images/values/integrity.svg" alt="image" style="widht: 48px; height: 48px;">
-                                </div>
-                                <div class="col-lg-10 col-md-11">
-                                    <h3>Integrity</h3>
-                                    <p>Uphold the highest standards of honesty, transparency, and ethical conduct in all our interactions, building trust with clients and stakeholders.</p>
-                                </div>
-                            </div>
+                    <div class="values-card d-flex gap-3">
+                        <div class="values-icon">
+                            <img src="./images/values/collaboration.svg" alt="image" style="widht: 48px; height: 48px;">
                         </div>
-                        <div class="col-lg-6 col-sm-12">
-                            <div class="row mb-5">
-                                <div class="col-lg-2 col-md-1">
-                                    <img src="./images/values/user.svg" alt="image" style="widht: 48px; height: 48px;">
-                                </div>
-                                <div class="col-lg-10 col-md-11">
-                                    <h3>User Centric</h3>
-                                    <p>Place the needs and satisfaction of our clients at the forefront, ensuring every solution is tailored to enhance their financial experience and success.</p>
-                                </div>
-                            </div>
+                        <div class="values-text">
+                                <h3>Collaboration</h3>
+                                <p>Foster a collaborative environment that encourages teamwork, diversity of thought, and shared success, both internally and with our clients.</p>
                         </div>
                     </div>
                 </div>
-            </div>
+                <div class="list-2 d-flex gap-5">
+                    <div class="values-card d-flex gap-3">
+                        <div class="values-icon">
+                            <img src="./images/values/integrity.svg" alt="image" style="widht: 48px; height: 48px;">
+                        </div>
+                        <div class="values-text">
+                                <h3>Integrity</h3>
+                                <p>Uphold the highest standards of honesty, transparency, and ethical conduct in all our interactions, building trust with our clients.</p>
+                        </div>
+                    </div>
+                    <div class="values-card d-flex gap-3">
+                        <div class="values-icon">
+                            <img src="./images/values/user.svg" alt="image" style="widht: 48px; height: 48px;">
+                        </div>
+                        <div class="values-text">
+                                <h3>User Centric</h3>
+                                <p>Place the needs and satisfaction of our clients at the forefront, ensuring every solution is tailored to enhance their financial experience and success.</p>
+                        </div>
+                    </div>
+                </div>
         </div>
     </section>
 
@@ -206,4 +198,5 @@
             </div>
         </div>
     </section>
+</main>
 <?php include('footer.php'); ?>

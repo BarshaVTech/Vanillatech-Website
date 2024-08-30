@@ -1,4 +1,10 @@
 /* styles.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "metropolis", sans-serif;
   padding-top: 82px;
@@ -618,43 +624,45 @@ section h2 span {
 
 .values {
   margin-top: 64px;
-  padding: 3rem 0;
+  padding: 32px 0px;
   background: #FBF9F9;
 }
-@media (max-width: 576px) {
-  .values {
-    margin-top: 0px;
-    padding: 1rem 0;
+.values .values-heading h2 {
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .values .values-heading h2 {
+    text-align: left;
   }
 }
-.values h2 {
-  margin-bottom: 32px;
+.values .values-heading p {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
 }
-.values p {
-  color: #3A4253;
-  max-width: 492px;
-}
-@media (max-width: 992px) {
-  .values p {
-    max-width: none;
-    margin-bottom: 48px;
+@media (max-width: 768px) {
+  .values .values-heading p {
+    text-align: left;
   }
 }
-.values .values-list .row {
-  margin-bottom: 48px;
+.values .values-list {
+  margin-top: 32px;
 }
-.values .values-list .row:last-child {
-  margin-bottom: 0px;
-}
-@media (max-width: 992px) {
-  .values .values-list .row {
+@media (max-width: 768px) {
+  .values .values-list .list-1 {
+    flex-direction: column;
     margin-bottom: 0px;
   }
-}
-@media (max-width: 992px) {
-  .values .values-list .row p {
-    margin-bottom: 48px;
+  .values .values-list .list-2 {
+    flex-direction: column;
   }
+}
+.values .values-list .list-1 {
+  margin-bottom: 64px;
+  justify-content: center;
+}
+.values .values-list .list-2 {
+  justify-content: center;
 }
 .values .values-list h3 {
   font-size: 20px;
@@ -666,7 +674,12 @@ section h2 span {
   font-size: 14px;
   line-height: 28px;
   color: #3A4253;
-  width: auto;
+}
+.values .values-list .values-card {
+  max-width: 550px;
+  padding: 24px 24px;
+  background: white;
+  border-radius: 8px;
 }
 
 .stats {
@@ -1247,4 +1260,35 @@ section h2 span {
     height: 42px;
     width: 42px;
   }
+}
+
+.design {
+  background: #FBF9F9;
+}
+.design .banner-text {
+  padding-left: 12px;
+  padding-right: 64px;
+}
+
+.design-values {
+  background: #FBF9F9;
+}
+
+.testing {
+  background: #FBF9F9;
+}
+
+.testing-process {
+  background: none;
+}
+
+/* Define a transition duration during page visits */
+html.is-changing .transition-fade {
+  transition: opacity 0.25s;
+  opacity: 1;
+}
+
+/* Define the styles for the unloaded pages */
+html.is-animating .transition-fade {
+  opacity: 0;
 }

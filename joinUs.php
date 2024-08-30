@@ -1,5 +1,6 @@
 <?php include('header.php'); ?>
-    <section class="join-us-page-banner">
+<main id="swup" class="transition-fade">
+<section class="join-us-page-banner">
         <div class="container">
             <div class="row align-items-center">
                 <div class="banner-text col-lg-7 col-md-12 col-sm-12">
@@ -242,4 +243,5 @@
             </div>
         </div>
     </section>
+</main>
 <?php include('footer.php'); ?>

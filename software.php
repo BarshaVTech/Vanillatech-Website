@@ -1,4 +1,5 @@
 <?php include('header.php'); ?>
+<main id="swup" class="transition-fade">
     <section class="inner-page-banner">
         <div class="container">
             <div class="row align-items-center">
@@ -23,52 +24,52 @@
                 <div class="hiring-process-steps col-lg-6 col-md-12 col-sm-12">
                     <div class="hiring-step-container">
                         <div class="hiring-step-icon">
-                            <img src="./images/hiringProcess/applicationSub.svg" alt="Application Submission Icon">
+                            <img src="./images/software/plan.svg" alt="Application Submission Icon">
                         </div>
                         <div class="hiring-step-text">
                             <h5>Step 1</h5>
-                            <h3>Application Submission</h3>
-                            <p>Submit your application through our user-friendly portal. Highlight your skills and experiences, and let your story shine.</p>
+                            <h3>Planning & Requirement Gathering</h3>
+                            <p>Gather client requirements, define project goals, and outline the scope of the software solution.</p>
                         </div>
                     </div>
                     <div class="hiring-step-container">
                         <div class="hiring-step-icon">
-                            <img src="./images/hiringProcess/evaluation.svg" alt="Application Submission Icon">
+                            <img src="./images/software/design.svg" alt="Application Submission Icon">
                         </div>
                         <div class="hiring-step-text">
                             <h5>Step 2</h5>
-                            <h3>Initial Evaluation</h3>
-                            <p>Our team reviews applications to identify candidates who align with our values and job requirements.</p>
+                            <h3>Design & Prototype</h3>
+                            <p>Create a comprehensive design blueprint detailing system architecture, databases, interface and specifications.</p>
                         </div>
                     </div>
                     <div class="hiring-step-container">
                         <div class="hiring-step-icon">
-                            <img src="./images/hiringProcess/techincal.svg" alt="Application Submission Icon">
+                            <img src="./images/software/development.svg" alt="Application Submission Icon">
                         </div>
                         <div class="hiring-step-text">
                             <h5>Step 3</h5>
-                            <h3>Technical Assessment</h3>
-                            <p>Join us for a round to technical assessment where you get to showcase your technical skills to the team.</p>
+                            <h3>Development</h3>
+                            <p>Develop the core functionalities, logic, user interfaces that power the software.</p>
                         </div>
                     </div>
                     <div class="hiring-step-container">
                         <div class="hiring-step-icon">
-                            <img src="./images/hiringProcess/interview.svg" alt="Application Submission Icon">
+                            <img src="./images/software/test.svg" alt="Application Submission Icon">
                         </div>
                         <div class="hiring-step-text">
                             <h5>Step 4</h5>
-                            <h3>On-Site Interview</h3>
-                            <p>Join us for interviews with key team members. This is your opportunity to dive deeper into your potential role.</p>
+                            <h3>Testing & Deployment</h3>
+                            <p>Conduct rigorous testing—unit, integration, and system testing—to identify and rectify defects and execute a deployment strategy</p>
                         </div>
                     </div>
                     <div class="hiring-step-container">
                         <div class="hiring-step-icon">
-                            <img src="./images/hiringProcess/offer.svg" alt="Application Submission Icon">
+                            <img src="./images/software/maintenance.svg" alt="Application Submission Icon">
                         </div>
                         <div class="hiring-step-text">
                             <h5>Step 5</h5>
-                            <h3>Offer & Onboarding</h3>
-                            <p>Congratulations! Receive a personalized job offer outlining the exciting details of your new role, compensation, and benefits.</p>
+                            <h3>Operations & Maintenance</h3>
+                            <p> Continuously monitor performance and provide ongoing support for maintenance and bug fixes.</p>
                         </div>
                     </div>
                 </div>
@@ -185,64 +186,54 @@
     </section>
 
     <section class="values">
-        <div class="container" id="values-container">
+        <div class="container pt-5 pb-5" id="values-container">
             <div class="row align-items-center justify-content-center">
-                <div class="col-lg-5 col-md-12 col-sm-12">
+                <div class="values-heading col-lg-12 col-md-12 col-sm-12 text-center">
                     <h2>Elevate your <span>software with us</span></h2>
-                    <p>At Vanilla Tech, we're dedicated to enhancing your journey with seamless and enriching experiences. Our commitment to excellence extends beyond our services; it's about empowering you with the best.</p>
+                    <p class="padding-md-tb">At Vanilla Tech, we're dedicated to enhancing your journey with seamless and enriching experiences. Our commitment to excellence extends beyond our services; it's about empowering you with the best.</p>
                 </div>
-                <div class="values-list col-lg-7 col-md-12 col-sm-12">
-                    <div class="row">
-                        <div class="col-lg-6 col-sm-12">
-                            <div class="row">
-                                <div class="col-lg-2 col-md-1">
-                                    <img src="./images/values/innovation.svg" alt="image" style="widht: 48px; height: 48px;">
-                                </div>
-                                <div class="col-lg-10 col-md-11">
-                                    <h3>Industry Experts</h3>
-                                    <p>Our seasoned team of industry experts brings a wealth of experience and in-depth knowledge to every project. Trust us to navigate the complexities of your software development needs.</p>
-                                </div>
-                            </div>
+            <div class="values-list col-lg-12 col-md-12 col-sm-12">
+                <div class="list-1 d-flex gap-5">
+                    <div class="values-card d-flex gap-3">
+                        <div class="values-icon">
+                            <img src="./images/values/expert.svg" alt="image" style="widht: 48px; height: 48px;">
                         </div>
-                        <div class="col-lg-6 col-sm-12">
-                            <div class="row">
-                                <div class="col-lg-2 col-md-1">
-                                    <img src="./images/values/collabration.svg" alt="image" style="widht: 48px; height: 48px;">
-                                </div>
-                                <div class="col-lg-10 col-md-11">
-                                    <h3>Tailored Solutions</h3>
-                                    <p>We believe in the power of customization. Our approach involves crafting bespoke software solutions tailored to your unique requirements.</p>
-                                </div>
-                            </div>
+                        <div class="values-text">
+                                <h3>Industry Experts</h3>
+                                <p>Our seasoned team of industry experts brings a wealth of experience and in-depth knowledge to every project.</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-6 col-sm-12">
-                            <div class="row">
-                                <div class="col-lg-2 col-md-1">
-                                    <img src="./images/values/integrity.svg" alt="image" style="widht: 48px; height: 48px;">
-                                </div>
-                                <div class="col-lg-10 col-md-11">
-                                    <h3>Collaborative Approach</h3>
-                                    <p>Your vision is our priority. We embrace a collaborative approach that involves constant communication and transparent workflows.</p>
-                                </div>
-                            </div>
+                    <div class="values-card d-flex gap-3">
+                        <div class="values-icon">
+                            <img src="./images/values/collaboration.svg" alt="image" style="widht: 48px; height: 48px;">
                         </div>
-                        <div class="col-lg-6 col-sm-12">
-                            <div class="row">
-                                <div class="col-lg-2 col-md-1">
-                                    <img src="./images/values/user.svg" alt="image" style="widht: 48px; height: 48px;">
-                                </div>
-                                <div class="col-lg-10 col-md-11">
-                                    <h3>Post-launch Support</h3>
-                                    <p>Our commitment doesn't end with the launch. We provide dedicated post-launch support to ensure your software operates smoothly.</p>
-                                </div>
-                            </div>
+                        <div class="values-text">
+                                <h3>Tailored Solutions</h3>
+                                <p>We believe in the power of customization. Our approach involves crafting bespoke software solutions tailored to your unique requirements.</p>
                         </div>
                     </div>
                 </div>
-            </div>
+                <div class="list-2 d-flex gap-5">
+                    <div class="values-card d-flex gap-3">
+                        <div class="values-icon">
+                            <img src="./images/values/integrity.svg" alt="image" style="widht: 48px; height: 48px;">
+                        </div>
+                        <div class="values-text">
+                                <h3>Collaborative Approach</h3>
+                                <p>Your vision is our priority. We embrace a collaborative approach that involves constant communication and transparent workflows.</p>
+                        </div>
+                    </div>
+                    <div class="values-card d-flex gap-3">
+                        <div class="values-icon">
+                            <img src="./images/values/support.svg" alt="image" style="widht: 48px; height: 48px;">
+                        </div>
+                        <div class="values-text">
+                                <h3>Post-launch Support</h3>
+                                <p>Our commitment doesn't end with the launch. We provide dedicated post-launch support to ensure your software operates smoothly.</p>
+                        </div>
+                    </div>
+                </div>
         </div>
     </section>
-
+</main>
 <?php include('footer.php'); ?>

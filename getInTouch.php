@@ -1,5 +1,6 @@
 <?php include('header.php'); ?>
-    <section class="getInTouch-page-banner">
+<main id="swup" class="transition-fade">
+<section class="getInTouch-page-banner">
         <div class="container">
             <div class="row align-items-center">
             <div class="banner-image col-lg-5 col-md-12 col-sm-12 ">
@@ -65,5 +66,5 @@
             </div>
         </div>
     </section>
-
+</main>
 <?php include('footer.php'); ?>
