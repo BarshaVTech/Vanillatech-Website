@@ -24,7 +24,7 @@
                 <div class="hiring-process-steps col-lg-6 col-md-12 col-sm-12">
                     <div class="hiring-step-container">
                         <div class="hiring-step-icon">
-                            <img src="./images/software/plan.svg" alt="Application Submission Icon">
+                            <img src="./images/test/evaluation.svg" alt="Application Submission Icon">
                         </div>
                         <div class="hiring-step-text">
                             <h5>Step 1</h5>
@@ -34,7 +34,7 @@
                     </div>
                     <div class="hiring-step-container">
                         <div class="hiring-step-icon">
-                            <img src="./images/software/design.svg" alt="Application Submission Icon">
+                            <img src="./images/test/testcase.svg" alt="Application Submission Icon">
                         </div>
                         <div class="hiring-step-text">
                             <h5>Step 2</h5>
@@ -44,17 +44,17 @@
                     </div>
                     <div class="hiring-step-container">
                         <div class="hiring-step-icon">
-                            <img src="./images/software/development.svg" alt="Application Submission Icon">
+                            <img src="./images/test/testenv.svg" alt="Application Submission Icon">
                         </div>
                         <div class="hiring-step-text">
                             <h5>Step 3</h5>
-                            <h3>Test Environment Setup:</h3>
+                            <h3>Test Environment Setup</h3>
                             <p>Establish the testing environment, ensuring it mirrors the production environment for accurate testing.</p>
                         </div>
                     </div>
                     <div class="hiring-step-container">
                         <div class="hiring-step-icon">
-                            <img src="./images/software/test.svg" alt="Application Submission Icon">
+                            <img src="./images/test/report.svg" alt="Application Submission Icon">
                         </div>
                         <div class="hiring-step-text">
                             <h5>Step 4</h5>
@@ -64,7 +64,7 @@
                     </div>
                     <div class="hiring-step-container">
                         <div class="hiring-step-icon">
-                            <img src="./images/software/maintenance.svg" alt="Application Submission Icon">
+                            <img src="./images/test/support.svg" alt="Application Submission Icon">
                         </div>
                         <div class="hiring-step-text">
                             <h5>Step 5</h5>
@@ -97,7 +97,7 @@
                     </div>
                     <div class="values-card d-flex gap-3">
                         <div class="values-icon">
-                            <img src="./images/values/collaboration.svg" alt="image" style="widht: 48px; height: 48px;">
+                            <img src="./images/values/testing.svg" alt="image" style="widht: 48px; height: 48px;">
                         </div>
                         <div class="values-text">
                                 <h3>Modern Testing Solutions</h3>
@@ -117,7 +117,7 @@
                     </div>
                     <div class="values-card d-flex gap-3">
                         <div class="values-icon">
-                            <img src="./images/values/support.svg" alt="image" style="widht: 48px; height: 48px;">
+                            <img src="./images/values/innovation.svg" alt="image" style="widht: 48px; height: 48px;">
                         </div>
                         <div class="values-text">
                                 <h3>Cutting-Edge Technology</h3>

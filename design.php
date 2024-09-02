@@ -8,13 +8,13 @@
                     <p class="padding-md-tb">Welcome to Vanilla tech, where we specialize in crafting digital experiences that transcend expectations. Our passion lies in uncovering the unique essence of your brand and translating it into intuitive, aesthetically pleasing interfaces. Join us on a journey where innovation meets functionality, and let's redefine the way your audience interacts with your digital presence.</p>
                 </div>
                 <div class="banner-image col-lg-5 col-md-12  col-sm-12 ">
-                    <img src="images/team.jpg" alt="Team at Work" class="img-fluid rounded skewed-image w-100">
+                    <img src="images/design-banner.png" alt="Design Banner" class="img-fluid rounded skewed-image w-100">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="work-process hiring-process padding-lg-tb align-items-center">
+    <section class="design-process work-process hiring-process padding-lg-tb align-items-center">
         <div class="container text-center">
             <div class="section-title mx-auto">
                 <h2>How we do <span>our work </span></h2>
@@ -27,7 +27,7 @@
                 <div class="hiring-process-steps col-lg-7 col-md-12 col-sm-12">
                     <div class="hiring-step-container">
                         <div class="hiring-step-icon">
-                            <img src="./images/hiringProcess/applicationSub.svg" alt="Application Submission Icon">
+                            <img src="./images/design/discovery.svg" alt="Discovery">
                         </div>
                         <div class="hiring-step-text">
                             <h5>Step 1</h5>
@@ -37,7 +37,7 @@
                     </div>
                     <div class="hiring-step-container">
                         <div class="hiring-step-icon">
-                            <img src="./images/hiringProcess/evaluation.svg" alt="Application Submission Icon">
+                            <img src="./images/design/define.svg" alt="Define">
                         </div>
                         <div class="hiring-step-text">
                             <h5>Step 2</h5>
@@ -47,7 +47,7 @@
                     </div>
                     <div class="hiring-step-container">
                         <div class="hiring-step-icon">
-                            <img src="./images/hiringProcess/techincal.svg" alt="Application Submission Icon">
+                            <img src="./images/design/ideate.svg" alt="Ideate">
                         </div>
                         <div class="hiring-step-text">
                             <h5>Step 3</h5>
@@ -57,7 +57,7 @@
                     </div>
                     <div class="hiring-step-container">
                         <div class="hiring-step-icon">
-                            <img src="./images/hiringProcess/interview.svg" alt="Application Submission Icon">
+                            <img src="./images/design/prototype.svg" alt="Prototype">
                         </div>
                         <div class="hiring-step-text">
                             <h5>Step 4</h5>
@@ -67,7 +67,7 @@
                     </div>
                     <div class="hiring-step-container">
                         <div class="hiring-step-icon">
-                            <img src="./images/hiringProcess/offer.svg" alt="Application Submission Icon">
+                            <img src="./images/design/test.svg" alt="Application Submission Icon">
                         </div>
                         <div class="hiring-step-text">
                             <h5>Step 5</h5>
@@ -92,7 +92,7 @@
                 <div class="list-1 d-flex gap-5">
                     <div class="values-card d-flex gap-3">
                         <div class="values-icon">
-                            <img src="./images/values/expert.svg" alt="image" style="widht: 48px; height: 48px;">
+                            <img src="./images/design/thinking.svg" alt="image" style="widht: 48px; height: 48px;">
                         </div>
                         <div class="values-text">
                                 <h3>Strategic Thinking</h3>
@@ -101,7 +101,7 @@
                     </div>
                     <div class="values-card d-flex gap-3">
                         <div class="values-icon">
-                            <img src="./images/values/collaboration.svg" alt="image" style="widht: 48px; height: 48px;">
+                            <img src="./images/design/user.svg" alt="image" style="widht: 48px; height: 48px;">
                         </div>
                         <div class="values-text">
                                 <h3>User-Centric</h3>
@@ -112,7 +112,7 @@
                 <div class="list-2 d-flex gap-5">
                     <div class="values-card d-flex gap-3">
                         <div class="values-icon">
-                            <img src="./images/values/integrity.svg" alt="image" style="widht: 48px; height: 48px;">
+                            <img src="./images/design/industry.svg" alt="image" style="widht: 48px; height: 48px;">
                         </div>
                         <div class="values-text">
                                 <h3>Industry Focused</h3>
@@ -121,7 +121,7 @@
                     </div>
                     <div class="values-card d-flex gap-3">
                         <div class="values-icon">
-                            <img src="./images/values/support.svg" alt="image" style="widht: 48px; height: 48px;">
+                            <img src="./images/design/data.svg" alt="image" style="widht: 48px; height: 48px;">
                         </div>
                         <div class="values-text">
                                 <h3>Data-Driven</h3>

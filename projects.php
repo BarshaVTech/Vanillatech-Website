@@ -18,11 +18,21 @@
         <div class="container">
             <div class="projects-content padding-md-tb">
                 <div class="row">
-                    <div class="col-md-6">
-                        <img src="images/project1.jpg" alt="Project Image" class="img-fluid">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="project-image">
+                            <img src="./images/project1.jpg" alt="Project Image" class="img-fluid">
+                            <div class="project-img-overlay">
+                                <p>Valyou Wallet</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <img src="images/project2.jpg" alt="Project Image" class="img-fluid">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="project-image">
+                            <img src="./images/project2.jpg" alt="Project Image" class="img-fluid">
+                            <div class="project-img-overlay">
+                                <p>C-fly</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

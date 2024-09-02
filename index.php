@@ -8,7 +8,7 @@
                         <p class="padding-md-tb">We are a leading global software solution provider primarily expertizing in the FINTECH sector enriching world-class brands with cutting-edge software leveraging imagination and driving innovation.</p>
                         <div class="banner-buttons d-flex">
                             <a href="./joinUs.php" class="btn btn-outline me-4">Join Us</a>
-                            <a href="#" class="btn btn-tertiary d-flex flex-row gap-2 align-items-center">Our Services                             
+                            <a href="./services.php" class="btn btn-tertiary d-flex flex-row gap-2 align-items-center">Our Services                             
                                 <lord-icon
                                     src="https://cdn.lordicon.com/vduvxizq.json"
                                     trigger="loop"
@@ -123,49 +123,14 @@
                             <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">02 Cloud & DevOps</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">03 Database</button>
+                            <button class="nav-link" id="database-tab" data-bs-toggle="tab" data-bs-target="#database" type="button" role="tab" aria-controls="database" aria-selected="false">03 Database</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">04 Mobile Apps</button>
+                            <button class="nav-link" id="mobile-tab" data-bs-toggle="tab" data-bs-target="#mobile" type="button" role="tab" aria-controls="mobile" aria-selected="false">04 Mobile Apps</button>
                         </li>
                     </ul>
-                    <!-- <div class="horizontal-line"></div> -->
                     <div class="tab-content d-flex align-items-center w-100" id="myTabContent">
                         <div class="tab-pane fade show active w-100" id="home" role="tabpanel" aria-labelledby="home-tab">
-                            <!-- <div class="d-flex flex-wrap gap-4">
-                                <div class="d-flex dev-platform">
-                                    <img src="images/python.svg" alt="Python" class="img-fluid">
-                                    <p>Python</p>
-                                </div>
-                                <div class="d-flex dev-platform">
-                                    <img src="images/django.svg" alt="DJango" class="img-fluid">
-                                    <p>DJango</p>
-                                </div>
-                                <div class="d-flex dev-platform">
-                                    <img src="images/dotnet.svg" alt=".NET" class="img-fluid">
-                                    <p>.Net</p>
-                                </div>
-                                <div class="d-flex dev-platform">
-                                    <img src="images/react.svg" alt="React" class="img-fluid">
-                                    <p>React</p>
-                                </div>
-                                <div class="d-flex dev-platform">
-                                    <img src="images/php.svg" alt="PHP" class="img-fluid">
-                                    <p>PHP</p>
-                                </div>
-                                <div class="d-flex dev-platform">
-                                    <img src="images/material.svg" alt="Material" class="img-fluid">
-                                    <p>Material</p>
-                                </div>
-                                <div class="d-flex dev-platform">
-                                    <img src="images/tailwind.svg" alt="Tailwind" class="img-fluid">
-                                    <p>Tailwind</p>
-                                </div>
-                                <div class="d-flex dev-platform">
-                                    <img src="images/vue.svg" alt="Vue" class="img-fluid">
-                                    <p>Vue</p>
-                                </div>
-                            </div> -->
                             <div class="technologies-content">
                                 <h4 class="text-left">Frontend</h4>
                                 <div class="dev-platforms-flex">
@@ -207,10 +172,98 @@
                                         <p>PHP</p>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade w-100" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="technologies-content">
+                                <h4 class="text-left">Clouds</h4>
+                                <div class="dev-platforms-flex">
+                                        <div class="dev-platform">
+                                            <img src="images/react.svg" alt="React" class="img-fluid">
+                                            <p>React</p>
+                                        </div>
+                                        <div class="dev-platform">
+                                            <img src="images/material.svg" alt="Material" class="img-fluid">
+                                            <p>Material</p>
+                                        </div>
+                                        <div class="dev-platform">
+                                            <img src="images/tailwind.svg" alt="Tailwind" class="img-fluid">
+                                            <p>Tailwind</p>
+                                        </div>
+                                        <div class="dev-platform">
+                                            <img src="images/vue.svg" alt="Vue" class="img-fluid">
+                                            <p>Vue</p>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="technologies-content padding-md-t">
+                                    <h4 class="text-left">DevOps</h4>
+                                    <div class="dev-platforms-flex">
+                                        <div class="dev-platform">
+                                            <img src="images/python.svg" alt="Python" class="img-fluid">
+                                            <p>Python</p>
+                                        </div>
+                                        <div class="dev-platform">
+                                            <img src="images/django.svg" alt="DJango" class="img-fluid">
+                                            <p>DJango</p>
+                                        </div>
+                                        <div class="dev-platform">
+                                            <img src="images/dotnet.svg" alt=".NET" class="img-fluid">
+                                            <p>.Net</p>
+                                        </div>
+                                        <div class="dev-platform">
+                                            <img src="images/php.svg" alt="PHP" class="img-fluid">
+                                            <p>PHP</p>
+                                        </div>
+                                    </div>
                             </div>  
                         </div>
-                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                        <div class="tab-pane fade w-100" id="database" role="tabpanel" aria-labelledby="database-tab">
+                            <div class="technologies-content">
+                                    <h4 class="text-left">Database</h4>
+                                    <div class="dev-platforms-flex">
+                                            <div class="dev-platform">
+                                                <img src="images/react.svg" alt="React" class="img-fluid">
+                                                <p>React</p>
+                                            </div>
+                                            <div class="dev-platform">
+                                                <img src="images/material.svg" alt="Material" class="img-fluid">
+                                                <p>Material</p>
+                                            </div>
+                                            <div class="dev-platform">
+                                                <img src="images/tailwind.svg" alt="Tailwind" class="img-fluid">
+                                                <p>Tailwind</p>
+                                            </div>
+                                            <div class="dev-platform">
+                                                <img src="images/vue.svg" alt="Vue" class="img-fluid">
+                                                <p>Vue</p>
+                                            </div>
+                                        </div>
+                            </div>             
+                        </div>
+                        <div class="tab-pane fade w-100" id="mobile" role="tabpanel" aria-labelledby="mobile-tab">
+                            <div class="technologies-content">
+                                        <h4 class="text-left">Mobile</h4>
+                                        <div class="dev-platforms-flex">
+                                                <div class="dev-platform">
+                                                    <img src="images/react.svg" alt="React" class="img-fluid">
+                                                    <p>React</p>
+                                                </div>
+                                                <div class="dev-platform">
+                                                    <img src="images/material.svg" alt="Material" class="img-fluid">
+                                                    <p>Material</p>
+                                                </div>
+                                                <div class="dev-platform">
+                                                    <img src="images/tailwind.svg" alt="Tailwind" class="img-fluid">
+                                                    <p>Tailwind</p>
+                                                </div>
+                                                <div class="dev-platform">
+                                                    <img src="images/vue.svg" alt="Vue" class="img-fluid">
+                                                    <p>Vue</p>
+                                                </div>
+                                            </div>
+                            </div>    
+                        </div>
                     </div>
                 </div>
             </div>
@@ -222,17 +275,27 @@
                     <p class="padding-md-tb">At Vanilla Tech, we take pride in our recent endeavors that push the boundaries of Fintech innovation. Here's a glimpse into our latest projects, each a testament to our commitment to revolutionizing the financial landscape.</p>
                 </div>
                 <div class="projects-content padding-md-tb">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img src="images/project1.jpg" alt="Project Image" class="img-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="project-image">
+                            <img src="./images/project1.jpg" alt="Project Image" class="img-fluid">
+                            <div class="project-img-overlay">
+                                <p>Valyou Wallet</p>
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <img src="images/project2.jpg" alt="Project Image" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="project-image">
+                            <img src="./images/project2.jpg" alt="Project Image" class="img-fluid">
+                            <div class="project-img-overlay">
+                                <p>C-fly</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
                 <div class="buttons mx-auto d-flex justify-content-center">
-                    <a href="#" class="btn btn-tertiary align-items-center">View More</a>
+                    <a href="./projects.php" class="btn btn-tertiary align-items-center">View More</a>
                 </div>
             </div>
         </section>
@@ -244,14 +307,14 @@
                 </div>
                 <div class="insights-content padding-md-t">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-xl-4 col-lg-6 col-md-12">
                             <div class="insights-box">
                                 <img src="images/insight1.jpg" alt="French Touch" class="img-fluid w-100">
                                 <a href="#"><h5>French Touch</h5></a>
                                 <p>Leveraging the unique French approach to technology and design.</p>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-xl-4 col-lg-6 col-md-12">
                             <div class="insights-box">
                                 <img src="images/insight2.jpg" alt="Innovative Solutions" class="img-fluid w-100">
                                 <a href="#"><h5>Innovative Solutions</h5></a>
@@ -259,7 +322,7 @@
                             </div>
 
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-xl-4 col-lg-6 col-md-12">
                             <div class="insights-box">
                                 <img src="images/insight3.jpg" alt="Global Outreach" class="img-fluid w-100">
                                 <a href="#"><h5>Global Outreach</h5></a>
@@ -288,9 +351,6 @@
                             <img src="images/life3.jpg" alt="Celebrations" class="img-fluid mb-3">
                         </div>
                     </div>
-                </div>
-                <div class="buttons">
-                    <a href="#" class="btn btn-tertiary align-items-center mx-auto">View More</a>
                 </div>
             </div>
         </section>

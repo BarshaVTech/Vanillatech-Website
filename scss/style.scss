@@ -166,6 +166,11 @@ section{
     }
     .dropdown-menu.mega-menu.show {
         top:80px;
+        .row{
+            @media(max-width: 992px){
+                gap: 24px;
+            }
+        }
     }
     .navbar-brand {
         display: flex;
@@ -471,11 +476,56 @@ section{
 
 }
 
+.project-page-banner{
+    .row{
+        @media(max-width: 992px){
+            flex-direction: column-reverse;
+        }
+    }
+}
+
 .projects{
     background: $container-color;
-    img{
+    .project-image{
+        position: relative;
         width: 100%;
+        float: left;
+        @media(max-width: 992px){
+            margin-bottom: 32px;
+        }
     }
+    img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .project-img-overlay{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #029b81;
+        opacity: 90%;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+        p{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            color: #fff;
+            text-align: center;
+            font-size: 32px;
+            font-weight: 600;
+        }
+    }
+    .project-image:hover .project-img-overlay {
+        height: 100%;
+      }
 }
 
 .insights{
@@ -483,6 +533,9 @@ section{
         padding: 16px 16px 16px 16px;
         border: 1px solid #f0f0f0;
         border-radius: 4px;
+        @media(max-width: 1200px){
+            margin-bottom: 16px;
+        }
     }
     &-box{
         img{
@@ -491,6 +544,13 @@ section{
         h5{
             margin-bottom: 0.5rem;
             font-weight: 600;
+        }
+    }
+    .insights-content{
+        .row{
+            @media(max-width: 767px){
+                gap: 32px;
+            }
         }
     }
 }
@@ -1224,10 +1284,22 @@ section{
 
 .design{
     background: $container-color;
+    .row{
+        @media(max-width: 992px){
+            flex-direction: column-reverse;
+        }
+    }
     .banner-text{
         padding-left: 12px;
         padding-right: 64px;
+        @media(max-width: 992px){
+            padding-right: 12px;
+        }
     }
+}
+
+.design-process{
+    text-align: left;
 }
 
 .design-values{
@@ -1240,6 +1312,39 @@ section{
 
 .testing-process{
     background: none;
+}
+
+.services-list {
+    .content{
+        h4{
+            font-size: 20px;
+            font-weight: 600;
+            color: $primary-color;
+            margin-bottom: 16px;
+        }
+    }
+    .ui-ux{
+        .row{
+            @media(max-width: 992px){
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+.mobile{
+    background: white;
+    .row{
+        flex-direction: row-reverse;
+    }
+}
+
+
+.testing{
+    background: white;
+    .row{
+        flex-direction: row-reverse;
+    }
 }
 
 /* Define a transition duration during page visits */

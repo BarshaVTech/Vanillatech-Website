@@ -7,16 +7,20 @@
                         <p class="padding-md-tb">At Vanilla Tech, we believe in fostering collaboration and embracing diverse talents. Whether you’re an aspiring professional looking for an exciting career path or an organization seeking strategic partnerships, we welcome you to be part of our journey.</p>
                     </div>
                     <div class="buttons d-flex gap-4 align-items-center justify-content-center">
-                        <button class="btn btn-primary">Work with us</button>
-                        <button class="btn btn-tertiary align-items-center d-flex flex-row gap-2">Join Us
-                            <lord-icon
-                                src="https://cdn.lordicon.com/vduvxizq.json"
-                                trigger="loop"
-                                colors="primary:#33333"
-                                style="width:24px;height:24px"
-                                delay="2000">
-                            </lord-icon>
-                        </button>
+                        <a href="./getInTouch.php">
+                            <button class="btn btn-primary">Work with us</button>
+                        </a>
+                        <a href="./joinUs.php"> 
+                            <button class="btn btn-tertiary align-items-center d-flex flex-row gap-2">Join Us
+                                <lord-icon
+                                    src="https://cdn.lordicon.com/vduvxizq.json"
+                                    trigger="loop"
+                                    colors="primary:#33333"
+                                    style="width:24px;height:24px"
+                                    delay="2000">
+                                </lord-icon>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
